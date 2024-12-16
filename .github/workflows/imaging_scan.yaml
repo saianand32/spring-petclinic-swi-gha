@@ -19,6 +19,6 @@ jobs:
           echo "$(id -u):$(id -g)"
           echo "$(pwd)/src:/home/carl/extras/source"
           ls -alsht $(pwd)/src
-          "$(pwd)/swi:/home/carl/extras/results"
+          echo "$(pwd)/swi:/home/carl/extras/results"
           ls -alsht $(pwd)/swi
           docker run -u "$(id -u):$(id -g)" -v "$(pwd)/src:/home/carl/extras/source" -v "$(pwd)/swi:/home/carl/extras/results" -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
