@@ -16,4 +16,5 @@ jobs:
       - name: Run Imaging Cloud Action
         run: |
           cd ${{github.workspace}}
-          docker run -v ${{github.workspace}}/src:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
+          chown $(id -u):$(id -g) ${{github.workspace}}/swi
+          docker run -v ${{github.workspace}}/src:/home/carl/extras/source -v ${{github.workspace}}/swi:/home/carl/extras/results -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
