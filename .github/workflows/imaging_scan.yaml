@@ -5,6 +5,8 @@ on:
   # push:
   #   branches: [ swi ]
   workflow_dispatch:
+permissions:
+  write
 jobs:
   run-imaging-cloud-analyzer:
     runs-on: ubuntu-latest
