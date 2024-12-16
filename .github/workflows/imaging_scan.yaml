@@ -11,6 +11,7 @@ jobs:
   run-imaging-cloud-analyzer:
     runs-on: ubuntu-latest
     container:
+      image: ubuntu-latest
       options: --user root
     steps:
       - name: Checkout code
