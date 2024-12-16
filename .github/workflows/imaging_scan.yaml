@@ -15,5 +15,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Run Imaging Cloud Action
         run: |
-          cd ${{github.workspace}}
-          docker run -v ${{github.workspace}}:/home/carl/extras -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
+          cd ${{github.workspace}}/source
+          docker run -v ${{github.workspace}}/results:/home/carl/extras/results -v ${{github.workspace}}/src:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
