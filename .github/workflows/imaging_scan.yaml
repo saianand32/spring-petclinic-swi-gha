@@ -20,7 +20,7 @@ jobs:
           mkdir ./${{env.results}} 
           chmod a+w ./${{env.results}} 
           touch ./${{env.results}}/README.md
-          docker run -v ${{github.workspace}}/${{env.results}} :/home/carl/extras/results -v ${{github.workspace}}/source:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
+          docker run -v ${{github.workspace}}/${{env.results}}:/home/carl/extras/results -v ${{github.workspace}}/source:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
           ls -alsht ${{github.workspace}}/${{env.results}}/fastscan
           ls -alsht ${{github.workspace}}/${{env.results}}/deep-analysis
       - uses: actions/upload-artifact@v4
