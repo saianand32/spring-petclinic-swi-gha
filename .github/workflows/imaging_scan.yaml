@@ -2,7 +2,7 @@ name: Imaging Cloud Analyzer Action
 env:
   version: 1
   raw_results: raw_results
-  swi_results: swi_results
+  swi_results: results
 on:
   # push:
   #   branches: [ swi ]
@@ -39,9 +39,12 @@ jobs:
       - name: Handle Imaging Cloud Action SWI directory
         run: |
           cd ${{github.workspace}}
-          mkdir ./${{env.swi_results}} 
+          # mkdir ./${{env.swi_results}} 
           chmod a+w ./${{env.swi_results}} 
           touch ./${{env.swi_results}}/README.md
+      - name: Move select or post-processed files to SWI directory
+        run: |
+          mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
       - name: Add select or post-processed files to repo
         run: |
           mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
