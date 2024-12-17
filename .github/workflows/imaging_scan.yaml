@@ -18,3 +18,7 @@ jobs:
           cd ${{github.workspace}}
           # docker run -v ${{github.workspace}}/results:/home/carl/extras/results -v ${{github.workspace}}/source/main:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
           docker run --rm -e APP=${{github.repository}} -v "${{github.workspace}}/cfg/run.sh:/home/carl/run.sh" -v "${{github.workspace}}/source:/home/carl/sources" -v "${{github.workspace}}/results:/home/carl/output"  castbuild/carl:release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repo-swi
+          path: ${{github.workspace}}/results/repository
