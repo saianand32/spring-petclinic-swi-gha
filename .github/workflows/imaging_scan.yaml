@@ -40,11 +40,13 @@ jobs:
         run: |
           cd ${{github.workspace}}
           # mkdir ./${{env.swi_results}} 
-          chmod a+w ./${{env.swi_results}} 
-          touch ./${{env.swi_results}}/README.md
+          chmod a+w ${{github.workspace}}/${{env.swi_results}} 
+          touch ${{github.workspace}}/${{env.swi_results}}/README.md
+          ls -alsht ${{github.workspace}}
+          ls -alsht ${{github.workspace}}/${{env.swi_results}}/
       - name: Move select or post-processed files to SWI directory
         run: |
-          mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
+          cp ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
       - name: Add select or post-processed files to repo
         run: |
           git config --local user.email ${{github.event.pusher.email}}
