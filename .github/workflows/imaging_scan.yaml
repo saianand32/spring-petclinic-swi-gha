@@ -17,6 +17,8 @@ jobs:
         run: |
           pwd
           mkdir ${{github.workspace}}/../results
+          chmod a+w ${{github.workspace}}/../results
+          touch ${{github.workspace}}/../results/README.md
           # cd ${{github.workspace}}
           docker run -v ${{github.workspace}}/../results:/home/carl/extras/results -v ${{github.workspace}}/source/main:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
           ls -alsht ${{github.workspace}}/../results
