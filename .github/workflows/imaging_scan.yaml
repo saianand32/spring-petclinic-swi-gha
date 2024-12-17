@@ -1,7 +1,8 @@
 name: Imaging Cloud Analyzer Action
 env:
   version: 1
-  results: all_results
+  raw_results: raw_results
+  swi_results: results
 on:
   # push:
   #   branches: [ swi ]
@@ -12,18 +13,39 @@ jobs:
   run-imaging-cloud-analyzer:
     runs-on: ubuntu-latest
     steps:
+      - name: Ubuntu GitHub Actions environment variables List
+        run: env
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Handle Imaging Cloud Action results directories
+        run: |
+          cd ${{github.workspace}}
+          mkdir ./${{env.raw_results}} 
+          chmod a+w ./${{env.raw_results}} 
+          touch ./${{env.raw_results}}/README.md
       - name: Run Imaging Cloud Action
         run: |
           cd ${{github.workspace}}
-          mkdir ./${{env.results}} 
-          chmod a+w ./${{env.results}} 
-          touch ./${{env.results}}/README.md
-          docker run -v ${{github.workspace}}/${{env.results}}:/home/carl/extras/results -v ${{github.workspace}}/source:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
-          ls -alsht ${{github.workspace}}/${{env.results}}/fastscan
-          ls -alsht ${{github.workspace}}/${{env.results}}/deep-analysis
-      - uses: actions/upload-artifact@v4
-        with:
-          name: repo-swi
-          path: ${{github.workspace}}/${{env.results}}
+          docker run -v ${{github.workspace}}/${{env.raw_results}}:/home/carl/extras/results -v ${{github.workspace}}/source:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
+      - name: List Imaging Cloud Action results
+        run: |
+          ls -alsht ${{github.workspace}}/${{env.raw_results}}/fastscan
+          ls -alsht ${{github.workspace}}/${{env.raw_results}}/deep-analysis
+      # - name: Add Imaging Cloud Action results as artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: repo-swi
+      #     path: ${{github.workspace}}/${{env.raw_results}}
+      - name: Add select or post-processed files to repo
+        run: |
+          mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository ${{github.workspace}}/${{env.swi_results}}/
+          git config --local user.email ${{github.event.pusher.email}}
+          git config --local user.name ${{github.actor}}
+          git add ${{github.workspace}}/${{env.swi_results}}/statistic_*.json
+          git commit -m "add stats"
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     repository: ${{github.server_url}}/${{github.repository}}
+      #     force: true
+      
