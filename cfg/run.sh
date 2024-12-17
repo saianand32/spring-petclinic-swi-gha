@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo ${CARL_HOME}
+
 SOURCES="${CARL_HOME}/sources"
 OUTPUT="${CARL_HOME}/output"
 SOURCES_WRK="${CARL_HOME}/sources_wrk"
@@ -12,7 +14,9 @@ main()
 {
 	mkdir -p ${SOURCES} ${OUTPUT} ${SOURCES_WRK} ${OUTPUT_WRK}
 	
+        ls -alsht ${SOURCES}
 	cp -r ${SOURCES}/*  ${SOURCES_WRK}/
+        ls -alsht ${SOURCES_WRK}
 
 	local options="-a ${APP} -s ${SOURCES_WRK} -o ${OUTPUT_WRK} -t ${LOGS}"
 	local tcc_options="-n ${APP} -i ${OUTPUT_WRK} -w ${OUTPUT_WRK}/Transactions -l ${LOGS}/Transactions.castlog"
@@ -36,7 +40,9 @@ main()
 	echo "[INFO] Starting CARL TCC."
 	carltcc ${tcc_options}
 
+        ls -alsht ${OUTPUT_WRK}
 	cp -r ${OUTPUT_WRK}/*  ${OUTPUT}/
+        ls -alsht ${OUTPUT}
 
 }
 
