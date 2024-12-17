@@ -2,7 +2,7 @@ name: Imaging Cloud Analyzer Action
 env:
   version: 1
   raw_results: raw_results
-  swi_results: results
+  swi_results: swi_results
 on:
   # push:
   #   branches: [ swi ]
@@ -36,12 +36,18 @@ jobs:
       #   with:
       #     name: repo-swi
       #     path: ${{github.workspace}}/${{env.raw_results}}
+      - name: Handle Imaging Cloud Action SWI directory
+        run: |
+          cd ${{github.workspace}}
+          mkdir ./${{env.swi_results}} 
+          chmod a+w ./${{env.swi_results}} 
+          touch ./${{env.swi_results}}/README.md
       - name: Add select or post-processed files to repo
         run: |
-          mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository ${{github.workspace}}/${{env.swi_results}}/
+          mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
           git config --local user.email ${{github.event.pusher.email}}
           git config --local user.name ${{github.actor}}
-          git add ${{github.workspace}}/${{env.swi_results}}/statistic_*.json
+          git add ${{github.workspace}}/${{env.swi_results}}/*
           git commit -m "add stats"
       # - name: Push changes
       #   uses: ad-m/github-push-action@master
