@@ -47,7 +47,6 @@ jobs:
           mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
       - name: Add select or post-processed files to repo
         run: |
-          mv ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
           git config --local user.email ${{github.event.pusher.email}}
           git config --local user.name ${{github.actor}}
           git add ${{github.workspace}}/${{env.swi_results}}/*
