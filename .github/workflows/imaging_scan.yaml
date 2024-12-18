@@ -1,6 +1,7 @@
 name: Imaging Cloud Analyzer Action
 env:
   version: 1
+  actor_email: ${{github.event.pusher.email  || 'crl@castsoftware.com' }}
   raw_results: raw_results
   swi_results: results
 on:
@@ -15,6 +16,10 @@ jobs:
     steps:
       - name: Ubuntu GitHub Actions environment variables List
         run: env
+      - name: Commit config 
+        run: |
+          git config --local user.email ${{env.actor_email}}
+          git config --local user.name ${{github.actor}}
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Handle Imaging Cloud Action results directories
@@ -42,15 +47,13 @@ jobs:
           # mkdir ./${{env.swi_results}} 
           chmod a+w ${{github.workspace}}/${{env.swi_results}} 
           touch ${{github.workspace}}/${{env.swi_results}}/README.md
-          ls -alsht ${{github.workspace}}
-          ls -alsht ${{github.workspace}}/${{env.swi_results}}/
+          # ls -alsht ${{github.workspace}}
+          # ls -alsht ${{github.workspace}}/${{env.swi_results}}/
       - name: Move select or post-processed files to SWI directory
         run: |
           cp ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
       - name: Add select or post-processed files to repo
         run: |
-          git config --local user.email ${{github.event.pusher.email}}
-          git config --local user.name ${{github.actor}}
           git add ${{github.workspace}}/${{env.swi_results}}/*
           git commit -m "add stats"
       # - name: Push changes
