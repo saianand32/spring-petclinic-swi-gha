@@ -57,6 +57,7 @@ jobs:
         run: |
           git add ${{github.workspace}}/${{env.swi_results}}/*
           git commit -m "add stats"
+          git push
       # - name: Push changes
       #   uses: ad-m/github-push-action@master
       #   with:
