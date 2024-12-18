@@ -1,0 +1,350 @@
+{
+    "QR Computed by Carl": [
+        {
+            "id": 1634,
+            "name": "Avoid unreferenced Tables"
+        },
+        {
+            "id": 7126,
+            "name": "Avoid Artifacts with high Commented-out Code Lines Code Lines ratio"
+        },
+        {
+            "id": 7204,
+            "name": "Avoid method invocation in a loop termination expression"
+        },
+        {
+            "id": 7344,
+            "name": "Avoid SELECT all queries"
+        },
+        {
+            "id": 7346,
+            "name": "Avoid redundant indexes"
+        },
+        {
+            "id": 7388,
+            "name": "Avoid artifacts having recursive calls"
+        },
+        {
+            "id": 7404,
+            "name": "Avoid unreferenced views"
+        },
+        {
+            "id": 7424,
+            "name": "Avoid using SQL queries inside a loop"
+        },
+        {
+            "id": 7436,
+            "name": "Prefer UNION ALL to UNION"
+        },
+        {
+            "id": 7760,
+            "name": "Avoid triggers, functions and procedures with a very low comment code ratio"
+        },
+        {
+            "id": 7762,
+            "name": "Avoid undocumented triggers, functions and procedures"
+        },
+        {
+            "id": 7766,
+            "name": "Avoid Artifacts with High Cyclomatic Complexity"
+        },
+        {
+            "id": 7768,
+            "name": "Avoid Artifacts with High Depth of Code"
+        },
+        {
+            "id": 7772,
+            "name": "Avoid Artifacts with High Essential Complexity"
+        },
+        {
+            "id": 7774,
+            "name": "Avoid Artifacts with High Integration Complexity"
+        },
+        {
+            "id": 7776,
+            "name": "Avoid Artifacts with High Fan-In"
+        },
+        {
+            "id": 7778,
+            "name": "Avoid Artifacts with High Fan-Out"
+        },
+        {
+            "id": 7784,
+            "name": "Avoid Artifacts with lines longer than 120 characters"
+        },
+        {
+            "id": 7842,
+            "name": "Avoid large Artifacts - too many Lines of Code"
+        },
+        {
+            "id": 7860,
+            "name": "Avoid unreferenced Functions and Procedures"
+        },
+        {
+            "id": 1101016,
+            "name": "Avoid Artifacts with too many parameters"
+        },
+        {
+            "id": 1101022,
+            "name": "Avoid Tables without Primary Key (SQL)"
+        },
+        {
+            "id": 1101030,
+            "name": "Avoid Artifacts with queries on too many Tables and_or Views"
+        },
+        {
+            "id": 1101056,
+            "name": "Avoid large Tables - too many columns"
+        },
+        {
+            "id": 1101090,
+            "name": "Avoid Tables without a clustered Index"
+        }
+    ],
+    "StatFiles": [
+        {
+            "file": "/home/carl/extras/source",
+            "loc": -1,
+            "idFile": 0,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main",
+            "loc": -1,
+            "idFile": 1,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources",
+            "loc": -1,
+            "idFile": 2,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db",
+            "loc": -1,
+            "idFile": 3,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/h2",
+            "loc": -1,
+            "idFile": 4,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/hsqldb",
+            "loc": -1,
+            "idFile": 5,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/mysql",
+            "loc": -1,
+            "idFile": 6,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/postgres",
+            "loc": -1,
+            "idFile": 7,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/postgres/schema.sql",
+            "loc": 0,
+            "idFile": 8,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/mysql/user.sql",
+            "loc": 5,
+            "idFile": 9,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/mysql/schema.sql",
+            "loc": 49,
+            "idFile": 10,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/hsqldb/schema.sql",
+            "loc": 1,
+            "idFile": 11,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/db/h2/schema.sql",
+            "loc": 1,
+            "idFile": 12,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        }
+    ],
+    "StatByObjectType": [
+        {
+            "TypeId": 141813,
+            "TypeName": "CAST_PluginProject",
+            "Number": 1
+        },
+        {
+            "TypeId": 1000001,
+            "TypeName": "universalProject",
+            "Number": 1
+        },
+        {
+            "TypeId": 1000003,
+            "TypeName": "universalDirectory",
+            "Number": 8
+        },
+        {
+            "TypeId": 1000007,
+            "TypeName": "sourceFile",
+            "Number": 5
+        },
+        {
+            "TypeId": 1101005,
+            "TypeName": "SQLScriptProject",
+            "Number": 1
+        },
+        {
+            "TypeId": 1101006,
+            "TypeName": "SQLScriptTable",
+            "Number": 7
+        },
+        {
+            "TypeId": 1101007,
+            "TypeName": "SQLScriptTableColumn",
+            "Number": 24
+        },
+        {
+            "TypeId": 1101008,
+            "TypeName": "SQLScriptIndex",
+            "Number": 12
+        },
+        {
+            "TypeId": 1101011,
+            "TypeName": "SQLScriptSchema",
+            "Number": 2
+        },
+        {
+            "TypeId": 1101016,
+            "TypeName": "SQLScriptForeignKey",
+            "Number": 15
+        },
+        {
+            "TypeId": 1101020,
+            "TypeName": "SQLScriptUniqueConstraint",
+            "Number": 7
+        }
+    ],
+    "StatGlobalInventory": [
+        {
+            "name": "Inventory Methods",
+            "number": 0,
+            "id": 10051
+        },
+        {
+            "name": "Inventory Functions",
+            "number": 0,
+            "id": 10052
+        },
+        {
+            "name": "Inventory Triggers",
+            "number": 0,
+            "id": 10053
+        },
+        {
+            "name": "Inventory Events",
+            "number": 0,
+            "id": 10054
+        },
+        {
+            "name": "Inventory Macros",
+            "number": 0,
+            "id": 10055
+        },
+        {
+            "name": "Inventory Functions and Procedures",
+            "number": 0,
+            "id": 10056
+        },
+        {
+            "name": "Inventory Modules",
+            "number": 0,
+            "id": 10057
+        },
+        {
+            "name": "Inventory Files",
+            "number": 5,
+            "id": 10058
+        },
+        {
+            "name": "Inventory Programs",
+            "number": 0,
+            "id": 10059
+        },
+        {
+            "name": "Inventory Includes",
+            "number": 0,
+            "id": 10063
+        },
+        {
+            "name": "Inventory Packages",
+            "number": 0,
+            "id": 10064
+        }
+    ]
+}

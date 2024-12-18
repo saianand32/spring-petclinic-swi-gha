@@ -1,0 +1,661 @@
+{
+    "QR Computed by Carl": [
+        {
+            "id": 7126,
+            "name": "Avoid Artifacts with high Commented-out Code Lines Code Lines ratio"
+        },
+        {
+            "id": 7204,
+            "name": "Avoid method invocation in a loop termination expression"
+        },
+        {
+            "id": 7344,
+            "name": "Avoid SELECT all queries"
+        },
+        {
+            "id": 7378,
+            "name": "Use of style sheets"
+        },
+        {
+            "id": 7388,
+            "name": "Avoid artifacts having recursive calls"
+        },
+        {
+            "id": 7436,
+            "name": "Prefer UNION ALL to UNION"
+        },
+        {
+            "id": 7776,
+            "name": "Avoid Artifacts with High Fan-In"
+        },
+        {
+            "id": 7778,
+            "name": "Avoid Artifacts with High Fan-Out"
+        },
+        {
+            "id": 7780,
+            "name": "Avoid Classes with a very low comment code ratio"
+        },
+        {
+            "id": 7782,
+            "name": "Avoid empty finally blocks"
+        },
+        {
+            "id": 7784,
+            "name": "Avoid Artifacts with lines longer than 120 characters"
+        },
+        {
+            "id": 7788,
+            "name": "Avoid empty catch blocks"
+        },
+        {
+            "id": 7792,
+            "name": "Avoid Classes with a High Number Of Children"
+        },
+        {
+            "id": 7842,
+            "name": "Avoid large Artifacts - too many Lines of Code"
+        },
+        {
+            "id": 7844,
+            "name": "Avoid undocumented Methods"
+        },
+        {
+            "id": 8032,
+            "name": "Avoid using a break statement in 'for' loops"
+        },
+        {
+            "id": 1020000,
+            "name": "Avoid Artifacts with High Cyclomatic Complexity"
+        },
+        {
+            "id": 1020002,
+            "name": "Avoid programs with low comment  code ratio"
+        },
+        {
+            "id": 1020076,
+            "name": "Avoid Artifacts with too many parameters"
+        },
+        {
+            "id": 1020082,
+            "name": "Avoid undocumented Function"
+        },
+        {
+            "id": 1020084,
+            "name": "Avoid unreferenced Methods"
+        },
+        {
+            "id": 1020086,
+            "name": "Avoid Functions having a very low Comment Code ratio"
+        },
+        {
+            "id": 1020090,
+            "name": "Avoid Artifacts with High Depth of Code"
+        },
+        {
+            "id": 1020092,
+            "name": "Avoid_direct_definition_of_JavaScript_Functions_in_a_Web_page"
+        }
+    ],
+    "StatFiles": [
+        {
+            "file": "/home/carl/extras/source",
+            "loc": -1,
+            "idFile": 0,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main",
+            "loc": -1,
+            "idFile": 1,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources",
+            "loc": -1,
+            "idFile": 2,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/static",
+            "loc": -1,
+            "idFile": 3,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/static/resources",
+            "loc": -1,
+            "idFile": 4,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/static/resources/css",
+            "loc": -1,
+            "idFile": 5,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates",
+            "loc": -1,
+            "idFile": 6,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/fragments",
+            "loc": -1,
+            "idFile": 7,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/owners",
+            "loc": -1,
+            "idFile": 8,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/pets",
+            "loc": -1,
+            "idFile": 9,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/vets",
+            "loc": -1,
+            "idFile": 10,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages",
+            "loc": -1,
+            "idFile": 11,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/scss",
+            "loc": -1,
+            "idFile": 12,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/checkstyle",
+            "loc": -1,
+            "idFile": 13,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/checkstyle/nohttp-checkstyle.xml",
+            "loc": -1,
+            "idFile": 14,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/checkstyle/nohttp-checkstyle-suppressions.xml",
+            "loc": -1,
+            "idFile": 15,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/scss/typography.scss",
+            "loc": 52,
+            "idFile": 16,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/scss/responsive.scss",
+            "loc": 34,
+            "idFile": 17,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/scss/petclinic.scss",
+            "loc": 161,
+            "idFile": 18,
+            "bodyComment": 13,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/scss/header.scss",
+            "loc": 62,
+            "idFile": 19,
+            "bodyComment": 1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_tr.properties",
+            "loc": -1,
+            "idFile": 20,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_ru.properties",
+            "loc": -1,
+            "idFile": 21,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_pt.properties",
+            "loc": -1,
+            "idFile": 22,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_ko.properties",
+            "loc": -1,
+            "idFile": 23,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_fa.properties",
+            "loc": -1,
+            "idFile": 24,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_es.properties",
+            "loc": -1,
+            "idFile": 25,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_en.properties",
+            "loc": -1,
+            "idFile": 26,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_de.properties",
+            "loc": -1,
+            "idFile": 27,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages.properties",
+            "loc": -1,
+            "idFile": 28,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/application.properties",
+            "loc": -1,
+            "idFile": 29,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/application-postgres.properties",
+            "loc": -1,
+            "idFile": 30,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/application-mysql.properties",
+            "loc": -1,
+            "idFile": 31,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/welcome.html",
+            "loc": 10,
+            "idFile": 32,
+            "bodyComment": 1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/vets/vetList.html",
+            "loc": 51,
+            "idFile": 33,
+            "bodyComment": 1,
+            "leadingComment": -1,
+            "cyclomatic": 2,
+            "evg": 1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/pets/createOrUpdateVisitForm.html",
+            "loc": 54,
+            "idFile": 34,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/pets/createOrUpdatePetForm.html",
+            "loc": 34,
+            "idFile": 35,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/owners/ownersList.html",
+            "loc": 56,
+            "idFile": 36,
+            "bodyComment": 1,
+            "leadingComment": -1,
+            "cyclomatic": 2,
+            "evg": 1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/owners/ownerDetails.html",
+            "loc": 4,
+            "idFile": 37,
+            "bodyComment": 1,
+            "leadingComment": 1,
+            "cyclomatic": 2,
+            "evg": 1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/owners/findOwners.html",
+            "loc": 28,
+            "idFile": 38,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": 2,
+            "evg": 1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/owners/createOrUpdateOwnerForm.html",
+            "loc": 28,
+            "idFile": 39,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/fragments/selectField.html",
+            "loc": 28,
+            "idFile": 40,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/fragments/layout.html",
+            "loc": 66,
+            "idFile": 41,
+            "bodyComment": 5,
+            "leadingComment": -1,
+            "cyclomatic": 2,
+            "evg": 1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/fragments/inputField.html",
+            "loc": 28,
+            "idFile": 42,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/templates/error.html",
+            "loc": 7,
+            "idFile": 43,
+            "bodyComment": 1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/static/resources/css/petclinic.css",
+            "loc": 8466,
+            "idFile": 44,
+            "bodyComment": 1656,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        }
+    ],
+    "StatByObjectType": [
+        {
+            "TypeId": 141813,
+            "TypeName": "CAST_PluginProject",
+            "Number": 2
+        },
+        {
+            "TypeId": 1000001,
+            "TypeName": "universalProject",
+            "Number": 1
+        },
+        {
+            "TypeId": 1000003,
+            "TypeName": "universalDirectory",
+            "Number": 14
+        },
+        {
+            "TypeId": 1000007,
+            "TypeName": "sourceFile",
+            "Number": 31
+        },
+        {
+            "TypeId": 1020005,
+            "TypeName": "CAST_HTML5_Project",
+            "Number": 1
+        },
+        {
+            "TypeId": 1020006,
+            "TypeName": "CAST_HTML5_SourceCode",
+            "Number": 12
+        },
+        {
+            "TypeId": 1020007,
+            "TypeName": "CAST_HTML5_JavaScript_Function",
+            "Number": 2
+        },
+        {
+            "TypeId": 1020030,
+            "TypeName": "CAST_HTML5_JavaScript_SourceCode_Fragment",
+            "Number": 1
+        },
+        {
+            "TypeId": 1020123,
+            "TypeName": "CAST_HTML5_CSS_SourceCode",
+            "Number": 5
+        },
+        {
+            "TypeId": 1020230,
+            "TypeName": "CAST_Thymeleaf_GetResourceService",
+            "Number": 21
+        }
+    ],
+    "StatGlobalInventory": [
+        {
+            "name": "Inventory Methods",
+            "number": 0,
+            "id": 10051
+        },
+        {
+            "name": "Inventory Functions",
+            "number": 2,
+            "id": 10052
+        },
+        {
+            "name": "Inventory Triggers",
+            "number": 0,
+            "id": 10053
+        },
+        {
+            "name": "Inventory Events",
+            "number": 0,
+            "id": 10054
+        },
+        {
+            "name": "Inventory Macros",
+            "number": 0,
+            "id": 10055
+        },
+        {
+            "name": "Inventory Functions and Procedures",
+            "number": 0,
+            "id": 10056
+        },
+        {
+            "name": "Inventory Modules",
+            "number": 0,
+            "id": 10057
+        },
+        {
+            "name": "Inventory Files",
+            "number": 31,
+            "id": 10058
+        },
+        {
+            "name": "Inventory Programs",
+            "number": 0,
+            "id": 10059
+        },
+        {
+            "name": "Inventory Includes",
+            "number": 0,
+            "id": 10063
+        },
+        {
+            "name": "Inventory Packages",
+            "number": 0,
+            "id": 10064
+        }
+    ]
+}

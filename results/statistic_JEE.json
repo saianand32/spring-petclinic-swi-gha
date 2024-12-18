@@ -1,0 +1,1319 @@
+{
+    "QR Computed by Carl": [
+        {
+            "id": 2232,
+            "name": "Pages should use error handling page"
+        },
+        {
+            "id": 2238,
+            "name": "Avoid unreferenced JSPs and web client files"
+        },
+        {
+            "id": 4554,
+            "name": "Avoid large Classes - too many Methods"
+        },
+        {
+            "id": 4556,
+            "name": "Avoid large Classes - too many Constructors"
+        },
+        {
+            "id": 4558,
+            "name": "Avoid large Classes - too many Fields"
+        },
+        {
+            "id": 4560,
+            "name": "Avoid large Interfaces - too many Methods"
+        },
+        {
+            "id": 4566,
+            "name": "Avoid declaring Instance Variables without defined access type"
+        },
+        {
+            "id": 4570,
+            "name": "Avoid declaring Non Final Class Variables with Public or Package access type"
+        },
+        {
+            "id": 4578,
+            "name": "Good use of Interfaces with collections as Method return types"
+        },
+        {
+            "id": 4580,
+            "name": "Good use of Interfaces when instantiating a collection"
+        },
+        {
+            "id": 4594,
+            "name": "Avoid using 'java.io.File'"
+        },
+        {
+            "id": 4596,
+            "name": "Avoid using 'java.lang.System.getenv()'"
+        },
+        {
+            "id": 4598,
+            "name": "Avoid using 'java.lang.Runtime.exec()'"
+        },
+        {
+            "id": 4604,
+            "name": "Avoid using 'java.lang.Error'"
+        },
+        {
+            "id": 4606,
+            "name": "Avoid using 'sun' Classes"
+        },
+        {
+            "id": 4610,
+            "name": "Avoid using anonymous Classes"
+        },
+        {
+            "id": 4612,
+            "name": "Avoid using native Methods (JNI)"
+        },
+        {
+            "id": 4616,
+            "name": "Proper overriding of finalize"
+        },
+        {
+            "id": 4618,
+            "name": "Avoid instantiating Boolean"
+        },
+        {
+            "id": 4652,
+            "name": "Avoid direct Class inheritance from java.lang.Throwable"
+        },
+        {
+            "id": 4656,
+            "name": "Avoid declaring throwing an exception and not throwing it"
+        },
+        {
+            "id": 4694,
+            "name": "Avoid using 'System.gc'"
+        },
+        {
+            "id": 4704,
+            "name": "Avoid using Vector"
+        },
+        {
+            "id": 4708,
+            "name": "Avoid using Dynamic instantiation"
+        },
+        {
+            "id": 4716,
+            "name": "Avoid Classes implementing too many Interfaces"
+        },
+        {
+            "id": 7126,
+            "name": "Avoid Artifacts with high Commented-out Code Lines Code Lines ratio"
+        },
+        {
+            "id": 7140,
+            "name": "Action Artifacts should not directly call a JSP page"
+        },
+        {
+            "id": 7146,
+            "name": "JSP pages should only reference Java Objects associated to J2EE Scoped Bean"
+        },
+        {
+            "id": 7150,
+            "name": "Favor PreparedStatement or CallableStatement over Statement"
+        },
+        {
+            "id": 7152,
+            "name": "Avoid Fields in Servlet Classes that are not final static"
+        },
+        {
+            "id": 7154,
+            "name": "Avoid Fields in Action Classes that are not final static"
+        },
+        {
+            "id": 7196,
+            "name": "Avoid large number of String concatenation"
+        },
+        {
+            "id": 7202,
+            "name": "Check usage of equal and not equal on objects"
+        },
+        {
+            "id": 7204,
+            "name": "Avoid method invocation in a loop termination expression"
+        },
+        {
+            "id": 7206,
+            "name": "Avoid the use of InstanceOf inside loops"
+        },
+        {
+            "id": 7210,
+            "name": "Avoid instantiations inside loops"
+        },
+        {
+            "id": 7238,
+            "name": "JSP pages should always be accessed through their tiles definition"
+        },
+        {
+            "id": 7242,
+            "name": "Avoid implementing Action Classes inheriting directly from Struts Action"
+        },
+        {
+            "id": 7252,
+            "name": "Call superfinalize  in the finally block of finalize methods"
+        },
+        {
+            "id": 7344,
+            "name": "Avoid SELECT all queries"
+        },
+        {
+            "id": 7372,
+            "name": "Enable Struts Validator plugin"
+        },
+        {
+            "id": 7380,
+            "name": "Avoid unused validation form"
+        },
+        {
+            "id": 7382,
+            "name": "Avoid Validator field without Form Field"
+        },
+        {
+            "id": 7388,
+            "name": "Avoid artifacts having recursive calls"
+        },
+        {
+            "id": 7424,
+            "name": "Avoid using SQL queries inside a loop"
+        },
+        {
+            "id": 7434,
+            "name": "Avoid classes overriding only equals or only hashCode"
+        },
+        {
+            "id": 7436,
+            "name": "Prefer UNION ALL to UNION"
+        },
+        {
+            "id": 7488,
+            "name": "Use lazy fetching for collection"
+        },
+        {
+            "id": 7506,
+            "name": "Define equals and hashCode for component"
+        },
+        {
+            "id": 7562,
+            "name": "Avoid static Field of type collection"
+        },
+        {
+            "id": 7636,
+            "name": "Use version instead of timestamp"
+        },
+        {
+            "id": 7638,
+            "name": "Avoid using DriverManager"
+        },
+        {
+            "id": 7640,
+            "name": "Avoid catch blocks with assertion"
+        },
+        {
+            "id": 7648,
+            "name": "Avoid calling finalize()"
+        },
+        {
+            "id": 7678,
+            "name": "Avoid_using_specific_logging_implementation"
+        },
+        {
+            "id": 7708,
+            "name": "Avoid using session.setFlushMode(FlushMode.COMMIT, FlushMode.NEVER or FlushMode.MANUAL)"
+        },
+        {
+            "id": 7716,
+            "name": "Avoid defining singleton or factory when using Spring"
+        },
+        {
+            "id": 7732,
+            "name": "Avoid non validated inputs"
+        },
+        {
+            "id": 7734,
+            "name": "Avoid to use Log debug without calling Log.isDebugEnabled"
+        },
+        {
+            "id": 7766,
+            "name": "Avoid Artifacts with High Cyclomatic Complexity"
+        },
+        {
+            "id": 7768,
+            "name": "Avoid Artifacts with High Depth of Code"
+        },
+        {
+            "id": 7770,
+            "name": "Avoid Artifacts with too many parameters"
+        },
+        {
+            "id": 7772,
+            "name": "Avoid Artifacts with High Essential Complexity"
+        },
+        {
+            "id": 7774,
+            "name": "Avoid Artifacts with High Integration Complexity"
+        },
+        {
+            "id": 7776,
+            "name": "Avoid Artifacts with High Fan-In"
+        },
+        {
+            "id": 7778,
+            "name": "Avoid Artifacts with High Fan-Out"
+        },
+        {
+            "id": 7780,
+            "name": "Avoid Classes with a very low comment code ratio"
+        },
+        {
+            "id": 7782,
+            "name": "Avoid empty finally blocks"
+        },
+        {
+            "id": 7784,
+            "name": "Avoid Artifacts with lines longer than 120 characters"
+        },
+        {
+            "id": 7788,
+            "name": "Avoid empty catch blocks"
+        },
+        {
+            "id": 7792,
+            "name": "Avoid Classes with a High Number Of Children"
+        },
+        {
+            "id": 7794,
+            "name": "Avoid Classes with a High Public Data Ratio"
+        },
+        {
+            "id": 7824,
+            "name": "The exception Exception should never been thrown Always Subclass Exception and throw the subclassed Classes"
+        },
+        {
+            "id": 7830,
+            "name": "Avoid unreferenced Interfaces"
+        },
+        {
+            "id": 7838,
+            "name": "Avoid undocumented Methods"
+        },
+        {
+            "id": 7842,
+            "name": "Avoid large Artifacts - too many Lines of Code"
+        },
+        {
+            "id": 7846,
+            "name": "Avoid Methods with a very low comment code ratio"
+        },
+        {
+            "id": 7862,
+            "name": "Avoid catching an exception of type Exception, RuntimeException, or Throwable "
+        },
+        {
+            "id": 7908,
+            "name": "Avoid unreferenced Methods"
+        },
+        {
+            "id": 7910,
+            "name": "Never exit a finally block with a return"
+        },
+        {
+            "id": 7912,
+            "name": "Avoid unreferenced Data Members"
+        },
+        {
+            "id": 7940,
+            "name": "Avoid Stateful Beans not removed"
+        },
+        {
+            "id": 7954,
+            "name": "Avoid indirect String concatenation inside loops"
+        },
+        {
+            "id": 7962,
+            "name": "Avoid direct or indirect remote calls inside a loop"
+        },
+        {
+            "id": 8016,
+            "name": "Avoid unsecured EJB remote method"
+        },
+        {
+            "id": 8028,
+            "name": "Avoid missing default in switch statements"
+        },
+        {
+            "id": 8032,
+            "name": "Avoid using a break statement in 'for' loops"
+        },
+        {
+            "id": 8038,
+            "name": "Avoid Struts 2 Validator field not referencing a java class field"
+        },
+        {
+            "id": 8042,
+            "name": "Struts 2 Validation: Avoid unused validation form"
+        },
+        {
+            "id": 8108,
+            "name": "Close the outermost stream ASAP"
+        },
+        {
+            "id": 8110,
+            "name": "Use dedicated stored procedures when multiple data accesses are needed (ASCPEM-PRF-10)"
+        }
+    ],
+    "StatFiles": [
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/PetClinicApplication.java",
+            "loc": 3,
+            "idFile": 4,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java",
+            "loc": 9,
+            "idFile": 5,
+            "bodyComment": 1,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+            "loc": 3,
+            "idFile": 6,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+            "loc": 4,
+            "idFile": 7,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/model/Person.java",
+            "loc": 3,
+            "idFile": 8,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/Owner.java",
+            "loc": 0,
+            "idFile": 9,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/OwnerController.java",
+            "loc": 2,
+            "idFile": 10,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java",
+            "loc": 1,
+            "idFile": 11,
+            "bodyComment": 0,
+            "leadingComment": 3,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/Pet.java",
+            "loc": 3,
+            "idFile": 12,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/PetController.java",
+            "loc": 2,
+            "idFile": 13,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/PetType.java",
+            "loc": 4,
+            "idFile": 14,
+            "bodyComment": 0,
+            "leadingComment": 3,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java",
+            "loc": 10,
+            "idFile": 15,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 3,
+            "evg": 1,
+            "ivg": 3
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/PetValidator.java",
+            "loc": 4,
+            "idFile": 16,
+            "bodyComment": 0,
+            "leadingComment": 3,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/Visit.java",
+            "loc": 3,
+            "idFile": 17,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/owner/VisitController.java",
+            "loc": 2,
+            "idFile": 18,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java",
+            "loc": 1,
+            "idFile": 19,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/system/CrashController.java",
+            "loc": 5,
+            "idFile": 20,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/system/WelcomeController.java",
+            "loc": 4,
+            "idFile": 21,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/vet/Specialty.java",
+            "loc": 4,
+            "idFile": 22,
+            "bodyComment": 0,
+            "leadingComment": 5,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/vet/Vet.java",
+            "loc": 3,
+            "idFile": 23,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/vet/VetController.java",
+            "loc": 6,
+            "idFile": 24,
+            "bodyComment": 2,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/vet/VetRepository.java",
+            "loc": 3,
+            "idFile": 25,
+            "bodyComment": 0,
+            "leadingComment": 6,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/java/org/springframework/samples/petclinic/vet/Vets.java",
+            "loc": 7,
+            "idFile": 26,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 2,
+            "evg": 1,
+            "ivg": 2
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/MySqlIntegrationTests.java",
+            "loc": 6,
+            "idFile": 27,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/MysqlTestApplication.java",
+            "loc": 3,
+            "idFile": 28,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/PetClinicIntegrationTests.java",
+            "loc": 3,
+            "idFile": 29,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/PostgresIntegrationTests.java",
+            "loc": 9,
+            "idFile": 30,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 3,
+            "evg": 1,
+            "ivg": 3
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+            "loc": 13,
+            "idFile": 31,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java",
+            "loc": 16,
+            "idFile": 32,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java",
+            "loc": 11,
+            "idFile": 33,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java",
+            "loc": 3,
+            "idFile": 34,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/owner/PetValidatorTests.java",
+            "loc": 9,
+            "idFile": 35,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java",
+            "loc": 9,
+            "idFile": 36,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java",
+            "loc": 1,
+            "idFile": 37,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/service/EntityUtils.java",
+            "loc": 0,
+            "idFile": 38,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 4,
+            "evg": 1,
+            "ivg": 4
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/system/CrashControllerIntegrationTests.java",
+            "loc": 15,
+            "idFile": 39,
+            "bodyComment": 2,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java",
+            "loc": 1,
+            "idFile": 40,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java",
+            "loc": 7,
+            "idFile": 41,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/source/test/java/org/springframework/samples/petclinic/vet/VetTests.java",
+            "loc": 12,
+            "idFile": 42,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": 1,
+            "evg": 1,
+            "ivg": 1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/ArrayList_2a3376f2ae880a40.java",
+            "loc": 0,
+            "idFile": 76,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/List_ad7ba4928b74b79e.java",
+            "loc": 0,
+            "idFile": 77,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/Collection_a9460c2516c8c326.java",
+            "loc": 0,
+            "idFile": 83,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/Optional_7a62d625b5f5cd95.java",
+            "loc": 0,
+            "idFile": 92,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Page_1369133069.java",
+            "loc": 0,
+            "idFile": 93,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/JpaRepository_184803526.java",
+            "loc": 0,
+            "idFile": 110,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/CrudRepository_1911759956.java",
+            "loc": 0,
+            "idFile": 112,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Repository_749241873.java",
+            "loc": 0,
+            "idFile": 113,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/LinkedHashSet_453124d1177d973c.java",
+            "loc": 0,
+            "idFile": 133,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/Set_e84c7c9ffff54b84.java",
+            "loc": 0,
+            "idFile": 134,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/HashSet_f4d7936ef2fa27bb.java",
+            "loc": 0,
+            "idFile": 141,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Formatter_1889947178.java",
+            "loc": 0,
+            "idFile": 150,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/Collections_720747cefe7e711a.java",
+            "loc": 0,
+            "idFile": 158,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/ResponseEntity_2040651434.java",
+            "loc": 0,
+            "idFile": 172,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/RestTemplate_317097467.java",
+            "loc": 0,
+            "idFile": 174,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/HttpEntity_1330573317.java",
+            "loc": 0,
+            "idFile": 178,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/ParameterizedTypeReference_660260756.java",
+            "loc": 0,
+            "idFile": 182,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/Classes/java/util/LinkedList_8094afea1092461b.java",
+            "loc": 0,
+            "idFile": 187,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/ApplicationListener_1947346619.java",
+            "loc": 0,
+            "idFile": 192,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/EnumerablePropertySource_270744729.java",
+            "loc": 0,
+            "idFile": 194,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/PropertySource_1063958031.java",
+            "loc": 0,
+            "idFile": 195,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/PageImpl_990892921.java",
+            "loc": 0,
+            "idFile": 229,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/results/deep-analysis/deep-analysis/WorkFolders/LISA/JEE/JavaExtractedFiles/FlashAttributeResultMatchers_387346491.java",
+            "loc": 0,
+            "idFile": 244,
+            "bodyComment": 0,
+            "leadingComment": 0,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/application-mysql.properties",
+            "loc": -1,
+            "idFile": 283,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/application-postgres.properties",
+            "loc": -1,
+            "idFile": 284,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/application.properties",
+            "loc": -1,
+            "idFile": 285,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages.properties",
+            "loc": -1,
+            "idFile": 286,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_de.properties",
+            "loc": -1,
+            "idFile": 287,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_en.properties",
+            "loc": -1,
+            "idFile": 288,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_es.properties",
+            "loc": -1,
+            "idFile": 289,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_fa.properties",
+            "loc": -1,
+            "idFile": 290,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_ko.properties",
+            "loc": -1,
+            "idFile": 291,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_pt.properties",
+            "loc": -1,
+            "idFile": 292,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_ru.properties",
+            "loc": -1,
+            "idFile": 293,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        },
+        {
+            "file": "/home/carl/extras/source/main/resources/messages/messages_tr.properties",
+            "loc": -1,
+            "idFile": 294,
+            "bodyComment": -1,
+            "leadingComment": -1,
+            "cyclomatic": -1,
+            "evg": -1,
+            "ivg": -1
+        }
+    ],
+    "StatByObjectType": [
+        {
+            "TypeId": 98,
+            "TypeName": "JV_PROJECT",
+            "Number": 2
+        },
+        {
+            "TypeId": 99,
+            "TypeName": "JV_PACKAGE",
+            "Number": 9
+        },
+        {
+            "TypeId": 100,
+            "TypeName": "JV_CLASS",
+            "Number": 42
+        },
+        {
+            "TypeId": 101,
+            "TypeName": "JV_CTOR",
+            "Number": 42
+        },
+        {
+            "TypeId": 102,
+            "TypeName": "JV_METHOD",
+            "Number": 157
+        },
+        {
+            "TypeId": 103,
+            "TypeName": "JV_FIELD",
+            "Number": 64
+        },
+        {
+            "TypeId": 104,
+            "TypeName": "JV_INTERFACE",
+            "Number": 2
+        },
+        {
+            "TypeId": 217,
+            "TypeName": "JV_EJB_GROUP",
+            "Number": 1
+        },
+        {
+            "TypeId": 281,
+            "TypeName": "JSP_APP",
+            "Number": 2
+        },
+        {
+            "TypeId": 363,
+            "TypeName": "JSP_PROPERTY_MAPPING",
+            "Number": 84
+        },
+        {
+            "TypeId": 365,
+            "TypeName": "JSP_PROPERTIES_FILE",
+            "Number": 12
+        },
+        {
+            "TypeId": 620,
+            "TypeName": "JV_FILE",
+            "Number": 39
+        },
+        {
+            "TypeId": 699,
+            "TypeName": "JV_TYPEPARAM",
+            "Number": 1
+        },
+        {
+            "TypeId": 975,
+            "TypeName": "JV_INST_CLASS",
+            "Number": 17
+        },
+        {
+            "TypeId": 976,
+            "TypeName": "JV_INST_INTERFACE",
+            "Number": 18
+        },
+        {
+            "TypeId": 977,
+            "TypeName": "JV_INST_METHOD",
+            "Number": 9
+        },
+        {
+            "TypeId": 978,
+            "TypeName": "JV_INST_CTOR",
+            "Number": 12
+        },
+        {
+            "TypeId": 986,
+            "TypeName": "SPRING_BEAN",
+            "Number": 7
+        },
+        {
+            "TypeId": 988,
+            "TypeName": "JV_GENERIC_METHOD",
+            "Number": 1
+        },
+        {
+            "TypeId": 136021,
+            "TypeName": "JPA_ENTITY",
+            "Number": 9
+        },
+        {
+            "TypeId": 136022,
+            "TypeName": "JPA_ENTITY_PROPERTY",
+            "Number": 18
+        },
+        {
+            "TypeId": 141813,
+            "TypeName": "CAST_PluginProject",
+            "Number": 3
+        },
+        {
+            "TypeId": 142034,
+            "TypeName": "CAST_Java_Lambda",
+            "Number": 9
+        },
+        {
+            "TypeId": 142746,
+            "TypeName": "CAST_Java_JPA_Entity",
+            "Number": 6
+        },
+        {
+            "TypeId": 142747,
+            "TypeName": "CAST_Java_JPA_Entity_Operation",
+            "Number": 3
+        },
+        {
+            "TypeId": 1020037,
+            "TypeName": "CAST_SpringMVC_Service",
+            "Number": 6
+        },
+        {
+            "TypeId": 1020038,
+            "TypeName": "CAST_SpringMVC_Port",
+            "Number": 6
+        },
+        {
+            "TypeId": 1020039,
+            "TypeName": "CAST_SpringMVC_GetOperation",
+            "Number": 12
+        },
+        {
+            "TypeId": 1020040,
+            "TypeName": "CAST_SpringMVC_PostOperation",
+            "Number": 5
+        },
+        {
+            "TypeId": 1029012,
+            "TypeName": "CAST_SpringData_JPA_SQLQuery",
+            "Number": 1
+        }
+    ],
+    "StatGlobalInventory": [
+        {
+            "name": "Inventory Methods",
+            "number": 209,
+            "id": 10051
+        },
+        {
+            "name": "Inventory Functions",
+            "number": 0,
+            "id": 10052
+        },
+        {
+            "name": "Inventory Triggers",
+            "number": 0,
+            "id": 10053
+        },
+        {
+            "name": "Inventory Events",
+            "number": 0,
+            "id": 10054
+        },
+        {
+            "name": "Inventory Macros",
+            "number": 0,
+            "id": 10055
+        },
+        {
+            "name": "Inventory Functions and Procedures",
+            "number": 0,
+            "id": 10056
+        },
+        {
+            "name": "Inventory Modules",
+            "number": 0,
+            "id": 10057
+        },
+        {
+            "name": "Inventory Files",
+            "number": 0,
+            "id": 10058
+        },
+        {
+            "name": "Inventory Programs",
+            "number": 0,
+            "id": 10059
+        },
+        {
+            "name": "Inventory Includes",
+            "number": 0,
+            "id": 10063
+        },
+        {
+            "name": "Inventory Packages",
+            "number": 9,
+            "id": 10064
+        }
+    ]
+}
