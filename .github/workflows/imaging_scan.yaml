@@ -20,6 +20,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Commit config 
         run: |
+          cd ${{github.workspace}}
           git config --local user.email ${{env.actor_email}}
           git config --local user.name ${{github.actor}}
       - name: Handle Imaging Cloud Action results directories
