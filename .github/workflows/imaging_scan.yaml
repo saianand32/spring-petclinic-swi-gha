@@ -16,12 +16,12 @@ jobs:
     steps:
       - name: Ubuntu GitHub Actions environment variables List
         run: env
+      - name: Checkout code
+        uses: actions/checkout@v4
       - name: Commit config 
         run: |
           git config --local user.email ${{env.actor_email}}
           git config --local user.name ${{github.actor}}
-      - name: Checkout code
-        uses: actions/checkout@v4
       - name: Handle Imaging Cloud Action results directories
         run: |
           cd ${{github.workspace}}
